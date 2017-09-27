@@ -18,23 +18,25 @@ class App extends Component {
 	}
 
 	handleClickBuscar(username) {
-		this.setState({ 'loadingSearch': true })
-		getUsuario(username).then((resultado) => {
-			this.setState({ 'usuarioEncontrado': resultado.data })
-			getRepositorios(username).then((repositorios) => {
+		this.setState({ 'loadingSearch': true }, () => {
+			getUsuario(username).then((resultado) => {
+				getRepositorios(username).then((repositorios) => {
+					this.setState({
+						'usuarioEncontrado': resultado.data,
+						'repositorios': repositorios.data,
+						'loadingSearch': false,
+						'renderPageNotFound': false
+					})
+				})
+			}).catch(() => {
 				this.setState({
-					'repositorios': repositorios.data,
 					'loadingSearch': false,
-					'renderPageNotFound': false
+					'usuarioEncontrado': undefined,
+					'renderPageNotFound': true
 				})
 			})
-		}).catch(() => {
-			this.setState({
-				'loadingSearch': false,
-				'usuarioEncontrado': undefined,
-				'renderPageNotFound': true
-			})
 		})
+
 	}
 
 	render() {
