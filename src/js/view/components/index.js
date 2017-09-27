@@ -7,6 +7,7 @@ export * from './elements/Label'
 export * from './elements/Pagination'
 export * from './elements/TextArea'
 export * from './elements/TextInput'
+export * from './elements/SuccessModal'
 
 
 export * from './form/Control'

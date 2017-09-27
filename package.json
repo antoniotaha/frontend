@@ -12,7 +12,9 @@
     "react-dom": "^15.6.1",
     "react-js-pagination": "^2.2.0",
     "react-paginate": "^4.4.4",
-    "react-scripts": "1.0.13"
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "react-simplert": "0.0.2"
   },
   "scripts": {
     "start": "npm-run-all -p watch-css start-js",
