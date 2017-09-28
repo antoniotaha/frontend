@@ -41,5 +41,13 @@ ferramentas como webpack, para rodar uma aplicação e ainda gerar seu build par
 
 - Este projeto pode ser acessado através do link, onde ele está hospedado: https://antoniotaha.github.io/frontend
 
+##### Fazer deploy automático deste projeto em seu repositório do Github
+
+- É necessário que você tenha um repositório público no github, com um branch vazio (órfão) que tenha exatamente o nome de gh-pages ,onde o deploy dos arquivos estáticos gerados no build será realizado.
+- Depois de ter esse repositório com esse branch, você deve acessar o repositório clonado do projeto frontend e editar o arquivo package.json.
+- No arquivo package.json é necessário trocar o valor do field "homepage": "https://seuusuario.github.io/nomedorepositorio", em seuusuario colocar o usuário do github e nomedorepositorio, o nome do seu repositório.
+- É preciso que antes de rodar o comando de deploy, você já tenha instalado as dependências do projeto com o comando npm install.
+- Depois de salvar a alteração da homepage no package.json, você já terá tudo pronto para realizar o deploy.
+- Execute o comando npm run deploy e acesse o link da homepage que esta deverá estar funcionando
 
 
