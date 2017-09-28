@@ -8,6 +8,7 @@
 #### Como executar?
 
 O projeto foi criado utilizando como task runner o NPM. Alguns scripts estão configurados no package.json.
+- Lembrar de clonar este repositório para rodar os comandos
 
 ##### Executar projeto
 - Primeiramente é preciso instalar as dependências do projeto, através do comando npm install, onde está o arquivo package.json
