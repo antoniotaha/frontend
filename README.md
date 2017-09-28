@@ -10,8 +10,8 @@
 O projeto foi criado utilizando como task runner o NPM. Alguns scripts estão configurados no package.json.
 
 ##### Executar projeto
-
-- Para executar basta acessar a pasta onde está o arquivo package.json, dentro do projeto, e rodar o comando via terminal npm start
+- Primeiramente é preciso instalar as dependências do projeto, através do comando npm install, onde está o arquivo package.json
+- Para executar o projeto basta acessar a pasta onde está o arquivo package.json, dentro do projeto, e rodar o comando via terminal npm start
 - Após o passo anterior o projeto estará rodando, configurado para acesso em http://localhost:3000
 
 ##### Executar testes
@@ -35,6 +35,7 @@ O projeto foi criado utilizando como task runner o NPM. Alguns scripts estão co
 - Para a realização dos testes foi utilizado o jest.
 - Também foi utilizado um projeto conhecido por Create React App que nos permite rapidamente criar uma aplicação React, com a configuração necessária para colocar ela em execução. Esse projeto configura de modo mais otimizado possível
 ferramentas como webpack, para rodar uma aplicação e ainda gerar seu build para deploy, com arquivos minificados.
+- Foi usado a api React-Router para configuração de rotas na aplicação.
 
 
 
