@@ -20,11 +20,11 @@ O projeto foi criado utilizando como task runner o NPM. Alguns scripts estão co
 
 ##### Checklist
 
-- [ ]  Pesquisar um usuário por username do github
-- [ ]  Fazer anotações de observação referente ao usuário pesquisado
-- [ ]  Paginação dos repositórios do usuário pesquisado
-- [ ]  Exibida uma página 404 para usuário não encontrado
-- [ ]  Testes com jest no front-end, cobrindo conceitos de teste de snapshot de componentes e de requisições da api
+- [X]  Pesquisar um usuário por username do github
+- [X]  Fazer anotações de observação referente ao usuário pesquisado
+- [X]  Paginação dos repositórios do usuário pesquisado
+- [X]  Exibida uma página 404 para usuário não encontrado
+- [X]  Testes com jest no front-end, cobrindo conceitos de teste de snapshot de componentes e de requisições da api
 
 ##### O que mais foi feito?
 
