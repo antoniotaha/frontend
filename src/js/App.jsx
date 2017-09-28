@@ -3,7 +3,7 @@ import * as C from 'view/components'
 import { getUsuario, getRepositorios } from 'AppContainer'
 import UsuarioView from 'view/usuario/UsuarioView'
 import PageNotFound from 'view/usuario/PageNotFound'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
 
 class App extends Component {
 
@@ -48,24 +48,20 @@ class App extends Component {
 			<Router>
 				<div className='is-vertical-flow is-full-height'>
 					<C.Header onClickBuscar={this.handleClickBuscar.bind(this)} loadingSearch={this.state.loadingSearch} />
-					<Route exact path="/" render={(props) => {
-						if (this.state.renderPageNotFound) {
-							props.history.push('/usuarioNotFound')
-						}
-
-						return (
+					<Route exact path="/" render={(props) => (
+						this.state.renderPageNotFound ? (
+							<Redirect to="/usuarioNotFound" />
+						) : (
 							<UsuarioView {...props} usuarioEncontrado={usuarioEncontrado} repositorios={repositorios} />
 						)
-					}} />
-					<Route path='/usuarioNotFound' render={(props) => {
-						if (!this.state.renderPageNotFound) {
-							props.history.push('/')
-						}
-
-						return (
+					)} />
+					<Route path="/usuarioNotFound" render={(props) => (
+						!this.state.renderPageNotFound ? (
+							<Redirect to="/" />
+						) : (
 							<PageNotFound />
 						)
-					}} />
+					)} />
 				</div>
 			</Router>
 		)
