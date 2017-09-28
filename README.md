@@ -16,7 +16,7 @@ O projeto foi criado utilizando como task runner o NPM. Alguns scripts estão co
 
 ##### Executar testes
 
-- Para executar os testes basta executar o comando npm test, e se necessário escolher digitar a tecla a para rodar todos os testes, conforme orientado na tela.
+- Para executar os testes basta executar o comando npm test -- -u, e se necessário escolher digitar a tecla a para rodar todos os testes, conforme orientado na tela.
 
 ##### Checklist
 
