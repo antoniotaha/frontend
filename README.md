@@ -37,6 +37,9 @@ O projeto foi criado utilizando como task runner o NPM. Alguns scripts estão co
 ferramentas como webpack, para rodar uma aplicação e ainda gerar seu build para deploy, com arquivos minificados.
 - Foi usado a api React-Router para configuração de rotas na aplicação.
 
+##### Hospedado no github
+
+- Este projeto pode ser acessado através do link, onde ele está hospedado: https://antoniotaha.github.io/frontend
 
 
 
