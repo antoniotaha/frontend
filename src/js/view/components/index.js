@@ -16,10 +16,6 @@ export * from './form/Field'
 export * from './grid/Column'
 export * from './grid/Columns'
 
-export * from './Header'
-export * from './Conteudo'
-
-export * from './usuario/CardRepositorio'
-export * from './usuario/PageNotFound'
-
+export * from './layout/Header'
+export * from './layout/Conteudo'
 

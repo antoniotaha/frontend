@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import * as C from 'view/components'
+import CardRepositorio from 'view/usuario/CardRepositorio'
 import { saveAnotacao, loadAnotacao } from 'view/usuario/UsuarioContainer'
 import usuarioIcon from 'usuario.svg'
 
@@ -66,7 +67,7 @@ class UsuarioView extends Component {
 
 		while (hasRepositorio) {
 			let repositorio = repositorios[offset]
-			cards[cont] = <C.CardRepositorio key={offset} nomeRepositorio={repositorio && repositorio.name} totalIssues={repositorio && repositorio.open_issues} linkRepositorio={repositorio && repositorio.html_url} />
+			cards[cont] = <CardRepositorio key={offset} nomeRepositorio={repositorio && repositorio.name} totalIssues={repositorio && repositorio.open_issues} linkRepositorio={repositorio && repositorio.html_url} />
 			cont++
 			offset++
 			hasRepositorio = cont < 3 && offset < repositorios.length
@@ -86,7 +87,9 @@ class UsuarioView extends Component {
 							<C.Image size='128x128' src={usuarioEncontrado ? usuarioEncontrado.avatar_url : usuarioIcon} />
 						</div>
 						<C.Label>Nome: {usuarioEncontrado && usuarioEncontrado.name}</C.Label>
-						<C.Label>E-mail: {usuarioEncontrado && usuarioEncontrado.email}</C.Label>
+						<C.Label>Seguidores: {usuarioEncontrado && usuarioEncontrado.followers}</C.Label>
+						<C.Label>Segue: {usuarioEncontrado && usuarioEncontrado.following}</C.Label>
+						<C.Label>Repositórios públicos: {usuarioEncontrado && usuarioEncontrado.public_repos}</C.Label>
 					</C.Column>
 					<C.Column>
 						<C.Label>Repositórios</C.Label>

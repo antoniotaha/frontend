@@ -6,6 +6,10 @@
     "axios": "^0.16.2",
     "bulma": "^0.5.3",
     "classnames": "^2.2.5",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "jest": "^21.2.1",
+    "nock": "^9.0.21",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.1.1",
     "react": "^15.6.1",
@@ -14,7 +18,8 @@
     "react-paginate": "^4.4.4",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
-    "react-simplert": "0.0.2"
+    "react-simplert": "0.0.2",
+    "react-test-renderer": "^16.0.0"
   },
   "scripts": {
     "start": "npm-run-all -p watch-css start-js",

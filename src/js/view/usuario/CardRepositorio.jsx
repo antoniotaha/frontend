@@ -1,6 +1,7 @@
 import React from 'react'
 import * as C from 'view/components'
-export class CardRepositorio extends React.Component {
+
+export default class CardRepositorio extends React.Component {
 
 	render() {
 		const linkRepositorio = this.props.linkRepositorio

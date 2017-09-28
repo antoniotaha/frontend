@@ -578,7 +578,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   color: #f3f3f3 !important; }
 
 .has-text-white-bis {
-  color: #f8f8f8 !important; }
+  color: #fafafa !important; }
 
 .has-text-weight-light {
   font-weight: 300 !important; }
@@ -2832,7 +2832,7 @@ a.box:active {
     color: #363636;
     text-align: left; }
   .table tr:hover {
-    background-color: #f8f8f8; }
+    background-color: #fafafa; }
   .table tr.is-selected {
     background-color: #438ccc;
     color: #fff; }
@@ -2866,7 +2866,7 @@ a.box:active {
   .table.is-narrow th {
     padding: 0.25em 0.5em; }
   .table.is-striped tbody tr:not(.is-selected):nth-child(even) {
-    background-color: #f8f8f8; }
+    background-color: #fafafa; }
     .table.is-striped tbody tr:not(.is-selected):nth-child(even):hover {
       background-color: #f3f3f3; }
 

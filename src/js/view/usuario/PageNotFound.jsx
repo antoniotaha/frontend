@@ -3,7 +3,7 @@ import * as C from 'view/components'
 import usuarioNotFound from 'usuario-nao-encontrado.svg'
 
 
-export class PageNotFound extends React.Component {
+export default class PageNotFound extends React.Component {
 
 	render() {
 		return (
