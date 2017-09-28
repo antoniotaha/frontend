@@ -48,6 +48,7 @@ ferramentas como webpack, para rodar uma aplicação e ainda gerar seu build par
 - No arquivo package.json é necessário trocar o valor do field "homepage": "https://seuusuario.github.io/nomedorepositorio", em seuusuario colocar o usuário do github e nomedorepositorio, o nome do seu repositório.
 - É preciso que antes de rodar o comando de deploy, você já tenha instalado as dependências do projeto com o comando npm install.
 - Depois de salvar a alteração da homepage no package.json, você já terá tudo pronto para realizar o deploy.
+- **OBS**: Antes de fazer o deploy da aplicação, é necessário verificar se o origin do repositório clonado está apontando para o repositório onde o branch gh-pages foi criado, para que o deploy ocorra com sucesso.
 - Execute o comando npm run deploy e acesse o link da homepage que esta deverá estar funcionando
 
 
