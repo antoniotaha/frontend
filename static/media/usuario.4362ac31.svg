@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="94px" viewBox="0 0 94 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>3A68F67C-DF64-4B5B-B7A9-E85112E4BE35</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="46" cy="46" r="46"></circle>
+        <path d="M32.3093585,72.128 L18.584,79.614717 C17.778566,80.0538868 17.054717,80.5937358 16.3812075,81.1821887 C24.3834717,87.929434 34.7135094,92 46,92 C57.2031698,92 67.4672453,87.9901887 75.4469434,81.3349434 C74.7109434,80.7135094 73.9124528,80.154566 73.0271698,79.7136604 L58.3297358,72.3658113 C56.430717,71.4163019 55.2312453,69.4756226 55.2312453,67.3526792 L55.2312453,61.5861887 C55.6443774,61.1157736 56.1165283,60.5116981 56.6216604,59.7982642 C58.6248302,56.9688302 60.1402264,53.8564528 61.1904151,50.5913208 C63.0755472,50.0098113 64.4642264,48.2687547 64.4642264,46.1996226 L64.4642264,40.0443019 C64.4642264,38.6903396 63.8618868,37.4804528 62.9262642,36.6333585 L62.9262642,27.7353962 C62.9262642,27.7353962 64.7541132,13.8885283 46.0017358,13.8885283 C27.2493585,13.8885283 29.0772075,27.7353962 29.0772075,27.7353962 L29.0772075,36.6333585 C28.1398491,37.4804528 27.5392453,38.6903396 27.5392453,40.0443019 L27.5392453,46.1996226 C27.5392453,47.8209057 28.3915472,49.2477736 29.6673962,50.0723019 C31.2053585,56.7674717 35.2325283,61.5861887 35.2325283,61.5861887 L35.2325283,67.2103396 C35.2307925,69.2586415 34.109434,71.1455094 32.3093585,72.128 Z" id="path-3"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.909803922   0 0 0 0 0.956862745   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Telas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2.-Registro-paciente-Copy" transform="translate(-59.000000, -268.000000)">
+            <g id="ic_paciente" transform="translate(60.000000, 269.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="bg" stroke="#A9D5FC" fill="#D9EDFF" xlink:href="#path-1"></use>
+                <g mask="url(#mask-2)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
