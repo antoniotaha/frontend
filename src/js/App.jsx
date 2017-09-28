@@ -3,7 +3,7 @@ import * as C from 'view/components'
 import { getUsuario, getRepositorios } from 'AppContainer'
 import UsuarioView from 'view/usuario/UsuarioView'
 import PageNotFound from 'view/usuario/PageNotFound'
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom'
+import { HashRouter as Router, Route, Redirect } from 'react-router-dom'
 
 class App extends Component {
 

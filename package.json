@@ -2,12 +2,14 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://antoniotaha.github.io/frontend",
   "dependencies": {
     "axios": "^0.16.2",
     "bulma": "^0.5.3",
     "classnames": "^2.2.5",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.0",
+    "gh-pages": "^1.0.0",
     "jest": "^21.2.1",
     "nock": "^9.0.21",
     "node-sass-chokidar": "0.0.3",
@@ -22,6 +24,8 @@
     "react-test-renderer": "^16.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "npm-run-all -p watch-css start-js",
     "start-js": "react-scripts start",
     "build": "npm run build-css && react-scripts build",
