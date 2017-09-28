@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "editor.renderIndentGuides": false,
+    "eslint.autoFixOnSave": true,
+    "eslint.run": "onSave",
+    "emmet.showAbbreviationSuggestions": false,
+    "emmet.showExpandedAbbreviation": "never"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bulma": "^0.5.3",
+    "classnames": "^2.2.5",
+    "enzyme": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.0.0",
+    "jest": "^21.2.1",
+    "nock": "^9.0.21",
+    "node-sass-chokidar": "0.0.3",
+    "npm-run-all": "^4.1.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-js-pagination": "^2.2.0",
+    "react-paginate": "^4.4.4",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.13",
+    "react-simplert": "0.0.2",
+    "react-test-renderer": "^16.0.0"
+  },
+  "scripts": {
+    "start": "npm-run-all -p watch-css start-js",
+    "start-js": "react-scripts start",
+    "build": "npm run build-css && react-scripts build",
+    "build-css": "node-sass-chokidar --include-path ./node_modules src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-plugin-react": "^7.3.0"
+  }
+}
